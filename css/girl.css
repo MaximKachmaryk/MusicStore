@@ -1,0 +1,27 @@
+.girll {
+    height: 1000px;
+}
+
+.girl {
+    height: 1000px;
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.girl-img {
+    width: 1300px;
+    background-image: url(../img/img-girl/girl.png);
+    background-size: cover;
+    background-position: 30% 70%;
+}
+
+.girl-item img {
+    display: flex;
+    width: 40px;
+}
+
+.girl-item {
+    display: flex;
+}

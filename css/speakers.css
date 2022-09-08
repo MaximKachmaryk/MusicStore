@@ -1,7 +1,7 @@
 .speakers {
     height: 500px;
     display: flex;
-    height: 200px;
+    height: 500px;
     justify-content: space-between;
 }
 
