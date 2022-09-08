@@ -1,0 +1,26 @@
+.speakers {
+    height: 500px;
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.speakers-jbl {
+    width: 900px;
+    height: 200px;
+    background-image: url(../img/img-speakers/1banner.png);
+    background-size: cover;
+    background-position: 60% 70%;
+    height: 450px;
+    margin-right: 20px;
+    padding-top: 200px;
+}
+
+.speakers-headfones {
+    width: 400px;
+    background-image: url(../img/img-speakers/headphones.png);
+    background-size: cover;
+    background-position: 60% 70%;
+    height: 450px;
+    padding-top: 200px;
+}
