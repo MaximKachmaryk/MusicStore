@@ -31,6 +31,7 @@
                     <img src="img/jbl-cards/224(5).png" alt=" daniel">
                     <div class="jbl_title">Jane McCallan</div>
                     <div class="jbl-prise">Jane McCallan</div>
+                    
                     <buttton class="jbl-btn">add to cart</buttton>   
                 </div>`, `
                 <div class="jbl-card">
