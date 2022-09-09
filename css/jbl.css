@@ -1,0 +1,30 @@
+.jbl-speakers {
+    background-image: url(../img/jbl/bgorange.svg);
+    display: flex;
+    height: 500px;
+}
+
+.jbl-speakers img {
+    margin-top: 30px;
+    width: 600px;
+}
+
+.jbl-descr {
+    color: aliceblue;
+    width: 800px;
+    padding: 60px 20px 30px 50px;
+}
+
+.jbl-main-title {
+    font-size: 50px;
+}
+
+.jbl-title {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.jbl-sub-title {
+    margin-top: 10px;
+    font-size: 20px;
+}
