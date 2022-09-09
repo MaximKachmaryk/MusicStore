@@ -20,8 +20,32 @@
 .girl-item img {
     display: flex;
     width: 40px;
+    height: 40px;
+    margin: 10px;
 }
 
 .girl-item {
     display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 700px;
 }
+
+.girls-title h2 {
+    margin-left: 60px;
+    font-size: 40px;
+    margin-top: 260px;
+}
+
+.girls-title p {
+    margin-left: 60px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+/* .girl-items {
+    display: flex;
+    margin-top: 120px;
+    margin-left: 20px;
+} */
