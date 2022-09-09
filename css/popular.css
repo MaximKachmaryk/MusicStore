@@ -1,0 +1,19 @@
+.popualar {
+    margin-top: 50px;
+    height: 600px;
+}
+
+.popular-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-items img {
+    width: 350px;
+}
+
+.popular-descr {
+    width: 350px;
+    margin: auto;
+    margin-top: 15px;
+}
