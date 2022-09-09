@@ -1,0 +1,10 @@
+.checkout {
+    height: 150px;
+    background-color: rgb(35, 35, 231);
+    padding-top: 50px;
+}
+
+.checkout-items {
+    display: flex;
+    color: aliceblue;
+}
