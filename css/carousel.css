@@ -1,0 +1,37 @@
+    .headphones-carousel {
+        height: 600px;
+        width: 1200px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    /*   .headphones-carousel img {
+        height: 160px;
+        width: 180px;
+    } */
+    
+    .jbl-card img {
+        margin: auto;
+        /* width: 300px; */
+    }
+    
+    .jbl-card {
+        border: solid black;
+        height: 350px;
+        margin: 10px;
+    }
+    
+    .jbl-btn button {
+        margin: auto;
+    }
+    
+    .jbl_title {
+        margin: auto;
+        text-align: center;
+    }
+    
+    .jbl-prise {
+        text-align: center;
+    }
+    /* <div class="jbl-card"><img src="img/jbl-cards/224.png" alt=" daniel"><div class="jbl_title">Jane McCallan</div><div class="jbl-prise">Jane McCallan</div><buttton>add to cart</buttton></div>` */
