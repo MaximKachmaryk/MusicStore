@@ -1,0 +1,20 @@
+footer {
+    height: 400px;
+    background: rgb(29, 28, 28);
+}
+
+.footer_first-part {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.footer-second-part {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.footer_first-part img {
+    height: 60px;
+}
