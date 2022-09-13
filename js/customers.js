@@ -36,18 +36,18 @@
     function renderCarousel() {
         const slideContainer = document.querySelector('.customers__carousel');
         slideContainer.innerHTML = slides[currentSlideIdx];
-        /*  if (currentSlideIdx <= 0) {
-             currentSlideIdx = 0;
-             slideContainer.innerHTML = slides[currentSlideIdx];
-         } */
-        /*    if (window.innerWidth > 600) {
-               const secondSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
-               slideContainer.innerHTML += slides[secondSlideIdx];
-               if (window.innerWidth > 900) {
-                   const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
-                   slideContainer.innerHTML += slides[thirdSlideIdx];
-               }
-           } */
+        if (currentSlideIdx <= 0) {
+            currentSlideIdx = 0;
+            slideContainer.innerHTML = slides[currentSlideIdx];
+        }
+        if (window.innerWidth > 600) {
+            const secondSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
+            slideContainer.innerHTML += slides[secondSlideIdx];
+            if (window.innerWidth > 900) {
+                const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
+                slideContainer.innerHTML += slides[thirdSlideIdx];
+            }
+        }
     }
 
     function nextSlide() {

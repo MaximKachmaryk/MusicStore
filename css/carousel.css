@@ -17,7 +17,7 @@
     }
     
     .jbl-card {
-        border: solid black;
+        border: solid rgb(203, 202, 202);
         height: 350px;
         margin: 10px;
     }
