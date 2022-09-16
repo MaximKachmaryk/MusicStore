@@ -22,5 +22,11 @@
     background-size: cover;
     background-position: 60% 70%;
     height: 450px;
-    padding-top: 200px;
+    padding-top: 30px;
+}
+.speakers-jbl h2,h3,a{
+padding: 20px;
+}
+.speakers-headfones h2,h3,a{
+    padding: 20px;
 }

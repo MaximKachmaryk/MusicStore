@@ -1,7 +1,7 @@
 .support {
     margin-top: 30px;
     display: block;
-    height: 300px;
+    height: 200px;
 }
 
 .support-item {
@@ -12,9 +12,21 @@
 .support-items {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .support-items img {
     width: 50px;
-    height: 100%;
+    height: 50px;
+    padding: 4px;
+}
+
+.sprt-text h2 {
+    font-size: 25px;
+    padding: 4px;
+}
+
+.sprt-text h3 {
+    font-size: 15px;
+    padding: 4px;
 }

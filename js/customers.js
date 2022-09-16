@@ -36,7 +36,7 @@
     function renderCarousel() {
         const slideContainer = document.querySelector('.customers__carousel');
         slideContainer.innerHTML = slides[currentSlideIdx];
-        if (currentSlideIdx <= 0) {
+       /*  if (currentSlideIdx <= 0) {
             currentSlideIdx = 0;
             slideContainer.innerHTML = slides[currentSlideIdx];
         }
@@ -47,7 +47,7 @@
                 const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
                 slideContainer.innerHTML += slides[thirdSlideIdx];
             }
-        }
+        } */
     }
 
     function nextSlide() {
